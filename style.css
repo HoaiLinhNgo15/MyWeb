@@ -1,0 +1,24 @@
+.TitleCenter{
+	width: 100%;
+	text-align: center;
+	top: 0;
+	position: absolute;
+	margin: 0;
+	background-color: lightblue;
+}
+.Part1{
+	width: 50%;
+	height: auto;
+	margin-top: 10%;
+	float: right;
+	margin-right: 10%;
+	font-size: 1.5vw;
+	/*background-color: red;*/
+}
+#IMG1{
+	width: 20%;
+	height: auto;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 1%;
+}
