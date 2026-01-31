@@ -1,10 +1,64 @@
+body{
+	margin: 0;
+}
+figcaption{
+	font-size: 16pt;
+	text-align: center;
+}
+h1{
+	font-size: 36pt;
+	padding: 5px;
+}
+em{
+	font-weight: bold;
+}
+table, th, td, tr{
+	border: 3px solid black;
+	font-size: 26px;
+	border-collapse: collapse;
+}
+table{
+	width: 50%;
+	height: auto;
+}
+th, td{
+	text-align: center;
+}
 .TitleCenter{
 	width: 100%;
 	text-align: center;
 	top: 0;
 	position: absolute;
 	margin: 0;
-	background-color: lightblue;
+	background-color: #E3EEFF;
+}
+.intro1{
+	background-color: #D7EFFF;
+	padding: 5px;
+	overflow: hidden;
+}
+
+.intro2{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	font-size: 20pt;
+	padding: 5px;
+}
+.intro3{
+	display: flex;
+	width:100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 1% 0;
+	background-color: #E3EEFF;
+	overflow: hidden;
+	font-size: 26pt;
+	padding: 5px;
 }
 .Part1{
 	width: 50%;
@@ -12,13 +66,83 @@
 	margin-top: 10%;
 	float: right;
 	margin-right: 10%;
-	font-size: 1.5vw;
+	margin-bottom: 5px;
+	font-size: 26pt;
 	/*background-color: red;*/
 }
-#IMG1{
+.connection{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 5px;
+}
+.imgicon{
+	width: 40px;
+	height: auto;
+}
+
+#bar {
+  width: 100%;
+  height: 50px;
+  background-color: black; /* thêm màu nền */
+  color: white;
+  display: flex;             /* dùng flex để căn chỉnh nội dung */
+  align-items: center;       /* căn giữa theo chiều dọc */
+  justify-content: center;   /* căn giữa theo chiều ngang */
+  padding: 5px;
+  font-size: 30pt
+}
+#Part2{
+	width:50%;
+	text-align: center;
+	font-size: 26pt;
+}
+#Part3{
+	width: 50%;
+	font-size: 26pt;
+}
+#FG1{
 	width: 20%;
 	height: auto;
-	margin-top: 10%;
-	margin-left: 10%;
-	margin-right: 1%;
+	text-align: center;
+	margin: 10%;
+	margin-bottom: 10px;
 }
+#IMG1{
+	width: 20vw;
+	max-width: 500px;
+	min-width: 40px;
+	height: auto;
+}
+#tableFormat{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
+}
+#footerCenter{
+	width: 100%;
+	text-align: center;
+	background-color: #E3EEFF;
+	margin:1% 0;
+	font-size: 20pt;
+}
+#bar a:link,a:visited {
+  color: white;             /* link bình thường và đã click đều màu trắng */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+#bar a:hover {
+  color: #FFD700;           /* khi hover đổi sang vàng nổi bật */
+  text-decoration: underline;
+  transform: scale(1.1);    /* phóng to nhẹ */
+}
+
+#bar a:active {
+  color: #00FF00;           /* khi click giữ chuột đổi sang xanh lá */
+  text-decoration: none;
+  transform: scale(0.95);   /* thu nhỏ nhẹ */
+}
+
